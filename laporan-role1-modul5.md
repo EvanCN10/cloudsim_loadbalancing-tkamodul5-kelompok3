@@ -29,7 +29,14 @@ TokoKita/
 ├── nginx/
 │   ├── Dockerfile
 │   └── nginx.conf
-└── docker-compose.yml
+├── locust_reports/
+│   ├── locust_least_conn.html
+│   ├── locust_least_conn_stats.csv
+│   ├── locust_round_robin.html
+│   └── ... (berkas CSV lainnya)
+├── docker-compose.yml
+├── locustfile.py
+└── readme.md
 ```
 
 ### Penjelasan Aplikasi
